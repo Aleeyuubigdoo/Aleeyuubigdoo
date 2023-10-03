@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <style>
+        #section {
+          background-color: rgb(117, 128, 161);
+          padding: 50px;
+          padding-bottom: 30%;
+        }
+        #header {
+          background-color: black;
+          color: white;
+          padding: 5px;
+        }
+      </style>
+    </head>
+        <body>
+          <div id="header">
+            <h1>Welcome to AL-ISTIQAMA UNIVERSITY, SUMAILA - Online Application Platform</h1></div>
+            <div id="section">
+            <b>Create Your Account</b>
+            <br>Use your phone number as both password and username
+            <form 
+            action="your_regristration_script.php" method="post">
+            <label for="firstname">Firstname:</label>
+            <input type="text" id="firstname" name="firstname" required>
+
+            <br><label for="surname">Surname:</label>
+            <input type="text" id="surname" name="surname" required>
+            <br><label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+
+          <br><label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <br><label for="confirm_password">Confirm_password:</label>
+            <input type="password" id="confirm_password" name="confirm_password" required>
+
+            <br><input type="submit" value="Register">
+                
+
+            </form>
+          </div>
+        </body>
+</html>
